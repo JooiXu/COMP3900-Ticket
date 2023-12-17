@@ -46,7 +46,6 @@ const getEventByHost = async (req,res) => {
 const getEventByBooking = async (req,res) => {
   const { id } = req.params
 
-  
   const event = await Event.find({customers: id})
   if(!event) {
     return res.status(404).json({error: 'no such event'})
