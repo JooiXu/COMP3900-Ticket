@@ -1,0 +1,16 @@
+
+.host-header{
+  text-align: left;
+  margin-left: 4em;
+}
+
+.book-header{
+  text-align: left;
+  margin-left: 4em;
+}
+
+.hosted-event{
+  flex-direction:column;
+  flex-direction:row-reverse;
+}
+

@@ -1,0 +1,7 @@
+.cards{
+  background-color: rgba(164, 63, 142, 0.303);
+  
+  border-radius: 0.5rem;
+  box-shadow: teal;
+  padding: 1rem;
+}
